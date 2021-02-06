@@ -8,11 +8,17 @@ Clone this repository in your machine using git, Github's CLI or by manually dow
 ```bash
 git clone https://github.com/jlhernando/url-inspector-automator-js.git
 
-# OR
+# OR also
 
 gh repo clone https://github.com/jlhernando/url-inspector-automator-js
 ```
-The mechanism of the script is quite simple. There are two files that you need for the script to work:
+The mechanism of the script is quite simple. First, install the neccessary modules from your terminal
+
+```bash
+npm install
+```
+
+There are two files that you need for the script to work:
 1. Create a “urls.csv” file containing a list of urls from a site that it’s verified in your Google Search Console account.
 2. Update the “credentials.js” file with the email address you use for Search Console, the password and the URL from the property you’d like to check.
 
